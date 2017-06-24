@@ -13,5 +13,5 @@ deployment:
           s3_location:
             bucket: oreno-application
             key_pattern: oreno-application-{BRANCH}-{SHORT_COMMIT}
-        deployment_group: oreno-application
+        deployment_group: oreno-application-group
         deployment_config: CodeDeployDefault.OneAtATime
